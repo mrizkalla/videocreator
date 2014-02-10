@@ -21,6 +21,13 @@
 		A5C2A51218A749790006FB1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C2A4F418A749790006FB1D /* UIKit.framework */; };
 		A5C2A51A18A749790006FB1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5C2A51818A749790006FB1D /* InfoPlist.strings */; };
 		A5C2A51C18A749790006FB1D /* videocreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C2A51B18A749790006FB1D /* videocreatorTests.m */; };
+		A5C2A52818A74A0E0006FB1D /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C2A52518A74A0E0006FB1D /* Image1.jpg */; };
+		A5C2A52918A74A0E0006FB1D /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C2A52618A74A0E0006FB1D /* Image2.jpg */; };
+		A5C2A52A18A74A0E0006FB1D /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C2A52718A74A0E0006FB1D /* Image3.jpg */; };
+		A5C2A52C18A74C920006FB1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C2A52B18A74C920006FB1D /* AVFoundation.framework */; };
+		A5C2A52E18A75DE20006FB1D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C2A52D18A75DE20006FB1D /* MediaPlayer.framework */; };
+		A5C2A53018A760F30006FB1D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C2A52F18A760F30006FB1D /* ImageIO.framework */; };
+		A5C2A53218A8B4600006FB1D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C2A53118A8B4600006FB1D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		A5C2A51718A749790006FB1D /* videocreatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "videocreatorTests-Info.plist"; sourceTree = "<group>"; };
 		A5C2A51918A749790006FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5C2A51B18A749790006FB1D /* videocreatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videocreatorTests.m; sourceTree = "<group>"; };
+		A5C2A52518A74A0E0006FB1D /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image1.jpg; sourceTree = "<group>"; };
+		A5C2A52618A74A0E0006FB1D /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image2.jpg; sourceTree = "<group>"; };
+		A5C2A52718A74A0E0006FB1D /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image3.jpg; sourceTree = "<group>"; };
+		A5C2A52B18A74C920006FB1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A5C2A52D18A75DE20006FB1D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A5C2A52F18A760F30006FB1D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A5C2A53118A8B4600006FB1D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C2A53218A8B4600006FB1D /* AssetsLibrary.framework in Frameworks */,
+				A5C2A53018A760F30006FB1D /* ImageIO.framework in Frameworks */,
+				A5C2A52E18A75DE20006FB1D /* MediaPlayer.framework in Frameworks */,
+				A5C2A52C18A74C920006FB1D /* AVFoundation.framework in Frameworks */,
 				A5C2A4F318A749790006FB1D /* CoreGraphics.framework in Frameworks */,
 				A5C2A4F518A749790006FB1D /* UIKit.framework in Frameworks */,
 				A5C2A4F118A749790006FB1D /* Foundation.framework in Frameworks */,
@@ -101,6 +119,10 @@
 		A5C2A4EF18A749790006FB1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5C2A53118A8B4600006FB1D /* AssetsLibrary.framework */,
+				A5C2A52F18A760F30006FB1D /* ImageIO.framework */,
+				A5C2A52D18A75DE20006FB1D /* MediaPlayer.framework */,
+				A5C2A52B18A74C920006FB1D /* AVFoundation.framework */,
 				A5C2A4F018A749790006FB1D /* Foundation.framework */,
 				A5C2A4F218A749790006FB1D /* CoreGraphics.framework */,
 				A5C2A4F418A749790006FB1D /* UIKit.framework */,
@@ -126,6 +148,9 @@
 		A5C2A4F718A749790006FB1D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5C2A52518A74A0E0006FB1D /* Image1.jpg */,
+				A5C2A52618A74A0E0006FB1D /* Image2.jpg */,
+				A5C2A52718A74A0E0006FB1D /* Image3.jpg */,
 				A5C2A4F818A749790006FB1D /* videocreator-Info.plist */,
 				A5C2A4F918A749790006FB1D /* InfoPlist.strings */,
 				A5C2A4FC18A749790006FB1D /* main.m */,
@@ -230,7 +255,10 @@
 			files = (
 				A5C2A50918A749790006FB1D /* Images.xcassets in Resources */,
 				A5C2A4FB18A749790006FB1D /* InfoPlist.strings in Resources */,
+				A5C2A52918A74A0E0006FB1D /* Image2.jpg in Resources */,
 				A5C2A50418A749790006FB1D /* Main.storyboard in Resources */,
+				A5C2A52818A74A0E0006FB1D /* Image1.jpg in Resources */,
+				A5C2A52A18A74A0E0006FB1D /* Image3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
